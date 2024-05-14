@@ -51,7 +51,7 @@ def info_academica_2(item_educacao):
 # Função para extrair as informações referente à Formação Acadêmica mais recente
 def checar_formacao_academica(driver, perfil_id, instituicoes):
     # Acessando a página referente às formações acadêmicas
-    formacao_url = 'https://www.linkedin.com/in/{}/details/education/'.format(perfil_id)
+    formacao_url = f"https://www.linkedin.com/in/{perfil_id}/details/education/"
     driver.get(formacao_url)
     
     # Lendo a página do início ao fim
@@ -105,3 +105,34 @@ def checar_formacao_academica(driver, perfil_id, instituicoes):
                 return True
     
     return False
+
+
+def checar_nome(driver, perfil_id, possivel_nome):
+    perfil_url = f"https://www.linkedin.com/in/{perfil_id}/"
+    driver.get(perfil_url)
+    
+    # Salvando o código fonte da página em uma variável
+    src = driver.page_source
+
+    # Utilizando o código fonte para gerar um objeto Beautiful Soup
+    soup = BeautifulSoup(src,'lxml')
+    
+    intro = soup.find('div',{'class': 'mt2 relative'})
+    
+    # Localizando e extraindo o nome do candidato
+    nome_loc = intro.find('h1')
+    nome = nome_loc.get_text().strip()
+    
+    cont = 0
+    for n in possivel_nome.lower():
+        if(n in nome.lower()):
+            cont += 1
+    
+    if cont == len(possivel_nome):
+        return True
+    else:
+        return False
+    
+    
+    
+    

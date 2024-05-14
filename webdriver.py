@@ -11,18 +11,18 @@ def WebDriver_Close(driver):
     time.sleep(1)
     driver.close()
 
-def Login_Linkedin(driver, user, password):
+def Login_Linkedin(driver, account):
     # Abrindo a página de Login do LinkedIn
     driver.get('https://www.linkedin.com/login/')
     time.sleep(1) # aguardar 1 segundos para a página abrir
 
     # Inserindo o usuário
     usuario = driver.find_element('id','username') # acessando o campo usuário
-    usuario.send_keys(user) # enviando a string com o usuário
+    usuario.send_keys(account['username']) # enviando a string com o usuário
 
     # Inserindo a senha
     senha = driver.find_element('id','password') # acessando o campo senha
-    senha.send_keys(password) # enviando a string com a senha
+    senha.send_keys(account['password']) # enviando a string com a senha
 
     # Clicando no botão 'Entrar' para acessar a conta no LinkedIn
     driver.find_element("xpath","//button[@type='submit']").click()

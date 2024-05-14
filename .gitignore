@@ -2,5 +2,7 @@ login.txt
 api_key
 search_engine_id
 gemini_api_key
-test.py
+
+*test*
 *.csv
+__pycache__

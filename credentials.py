@@ -8,3 +8,6 @@ def Google_API_Key():
 
 def Google_SearchEngine_ID():
     return open('search_engine_id').read()
+
+def Google_Gemini_API_Key():
+    return open('gemini_api_key').read()
