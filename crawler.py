@@ -1,3 +1,8 @@
+#
+#   MÓDULO CRAWLER
+#   Aqui, estão as funções relacionadas à varredura que será feita.
+#
+
 import requests
 import credentials, validation, gemini
 

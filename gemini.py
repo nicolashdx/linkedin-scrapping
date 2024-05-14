@@ -1,9 +1,17 @@
+#
+#   MÓDULO GEMINI
+#   Aqui, está a parte de predição e otimização de busca utilizando NLP.
+#
+
+# Importando bibliotecas necessárias
 import google.generativeai as genai
 from ast import literal_eval
 from itertools import combinations, product
 
+# Importando módulos necessários
 import credentials
 
+# Função que recebe um nome completo e retorna todas as combinações possíveis de nome e sobrenome
 def Combinacoes_Nome(nome_completo):
     partes_nome = nome_completo.split()
 
@@ -29,23 +37,31 @@ def Combinacoes_Nome(nome_completo):
 
     return combinacoes
 
+# Função que utiliza a API do Gemini para prever qual possível nome é utilizado a partir de NLP.
+# A ideia é otimizar o tempo de varredura aumentando a predictibilidade do nome público
 def Gerar_Variacoes(nome_completo):
+    # Gerando combinações
     combinacoes = Combinacoes_Nome(nome_completo)
 
+    # Instanciando Gemini
     GOOGLE_API_KEY = credentials.Google_Gemini_API_Key()
     genai.configure(api_key=GOOGLE_API_KEY)
     model = genai.GenerativeModel('gemini-pro')
 
+    # Caractere de "pular linha"
     br = "\n"
 
+    # Pergunta que será enviada ao Gemini
     query = f"Use Processamento de Linguagem Natural para ordenar, do mais ao menos provável, 5 das possíveis variações que poderiam ser usadas como nome na plataforma Linkedin:\n{br.join(combinacoes)}\nApresente o resultado em uma lista em python, sem textos ou caracteres desnecessários"
 
+    # Filtrando resposta para extrair uma lista com a sintaxe correta da linguagem 
     response = model.generate_content(query)
     result = response.text.replace('\n', '')
     result = result[result.find('['):result.find(']')+1]
     try:
         nomes = literal_eval(result)
         return nomes
+    # Quando não é possível, retornar valor nulo
     except:
         return None
 

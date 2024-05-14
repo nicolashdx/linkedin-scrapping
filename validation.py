@@ -1,8 +1,15 @@
+#
+#   MÓDULO DE VALIDAÇÃO DE PERFIL
+#   Aqui, estão as funções que utilizam o código fonte de uma página
+#   web para verificar se um perfil pertence a pessoa que é buscada.
+#
+
+# Importando bibliotecas necessárias
 from bs4 import BeautifulSoup
 import time
-
 from unidecode import unidecode
 
+# Função que remove o acento e caracteres especiais de uma string. Exemplo: "transação" para "transacao"
 def remover_acentos(string):
     return unidecode(string)
 
@@ -106,7 +113,7 @@ def checar_formacao_academica(driver, perfil_id, instituicoes):
     
     return ''
 
-
+# Função que compara o nome pesquisado ao nome encontrado. Se semelhantes, retorna o nome.
 def checar_nome(driver, perfil_id, possivel_nome):
     perfil_url = f"https://www.linkedin.com/in/{perfil_id}/"
     driver.get(perfil_url)
