@@ -102,9 +102,9 @@ def checar_formacao_academica(driver, perfil_id, instituicoes):
     for nome in instituicoes:
         for f in formacoes:
             if(remover_acentos(nome).upper() == remover_acentos(f['instituicao']).upper()):
-                return True
+                return nome_formacao
     
-    return False
+    return ''
 
 
 def checar_nome(driver, perfil_id, possivel_nome):
@@ -124,15 +124,13 @@ def checar_nome(driver, perfil_id, possivel_nome):
     nome = nome_loc.get_text().strip()
     
     cont = 0
-    for n in possivel_nome.lower():
-        if(n in nome.lower()):
+    for n in remover_acentos(possivel_nome).lower():
+        if(n in remover_acentos(nome).lower()):
             cont += 1
     
     if cont == len(possivel_nome):
-        return True
+        return nome
     else:
-        return False
-    
-    
+        return ''
     
     

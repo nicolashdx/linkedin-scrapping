@@ -4,5 +4,4 @@ search_engine_id
 gemini_api_key
 
 *test*
-*.csv
 __pycache__

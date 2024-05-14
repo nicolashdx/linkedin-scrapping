@@ -9,7 +9,7 @@ def Names_To_Track(txt_name):
         linhas = file.readlines()
 
     for linha in linhas:
-        pessoas.append({'Name':linha.replace('\n', ''), 'Public Name':'','Curso':'', 'Linkedin ID': '', 'Linkedin URL': ''})
+        pessoas.append({'Nome Completo':linha.replace('\n', ''), 'Nome Publico':'','Curso':'', 'Linkedin ID': '', 'Linkedin URL': ''})
 
     return pessoas
 
@@ -27,22 +27,32 @@ def Search_Name(nome, params):
         return []
 
 def Crawling(driver, nomes, busca):
+    cont = 0
     for pessoa in nomes:
-        possiveis_nomes = gemini.Gerar_Variacoes(pessoa['Name'])
-        
+        possiveis_nomes = gemini.Gerar_Variacoes(pessoa['Nome Completo'])
         for n in possiveis_nomes:
             results = Search_Name(n, busca)
             if len(results) > 0:
                 r = results[0]
                 if "br.linkedin.com/in/" in r['link']:
                     profile_id = r['link'].split('/')[-1] if(len(r['link'].split('/')[-1])>0) else r['link'].split('/')[-2]
-                    if not validation.checar_formacao_academica(driver, profile_id, ["UFMG", "Universidade Federal de Minas Gerais"]):
+                    
+                    nome_publico = validation.checar_nome(driver, profile_id, n)
+                    if not nome_publico:
                         continue
-                    if not validation.checar_nome(driver, profile_id, n):
+                    
+                    nome_formacao = validation.checar_formacao_academica(driver, profile_id, ["UFMG", "Universidade Federal de Minas Gerais"])
+                    if not nome_formacao:
                         continue
+                    
+                    pessoa['Nome Publico'] = nome_publico
+                    pessoa['Curso'] = nome_formacao
                     pessoa['Linkedin ID'] = profile_id
                     pessoa['Linkedin URL'] = r['link']
                     break
+        cont += 1
+        perc = (cont/len(nomes))*100
+        print(f"{perc:.0f}% - {pessoa['Nome Completo']}")
     return nomes
     
 
