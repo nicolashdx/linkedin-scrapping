@@ -1,6 +1,6 @@
 #
 #   ARQUIVO PRINCIPAL
-#   Por aqui, os módulos são utilizados para compor todo o algoritmo.
+#   Por aqui, os módulos são utilizados.
 #
 
 # Importando bibliotecas necessárias
@@ -28,7 +28,8 @@ query = 'Graduação UFMG inurl:"linkedin"'
 # Marcando tempo de início
 start_time = time()
 
-# Função principal que retorna dicionário com os resultados da varredura
+# Função principal que retorna dicionário com os resultados da varredura:
+# Pessoa = {Nome, Nome público, Curso de formação, ID Linkedin, Url do perfil}
 result = crawler.Crawling(driver, names, query)
 
 # Marcando tempo de fim
