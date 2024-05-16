@@ -8,10 +8,33 @@
 from bs4 import BeautifulSoup
 import time
 from unidecode import unidecode
+from difflib import SequenceMatcher
+
+# Constantes de ajuste
+CMP_SCORE_MIN = 0.7
 
 # Função que remove o acento e caracteres especiais de uma string. Exemplo: "transação" para "transacao"
 def remover_acentos(string):
     return unidecode(string)
+
+def comparar_nomes(nome_completo, possivel_nome):
+    # Inicializa um objeto SequenceMatcher com as duas strings
+    seq_matcher = SequenceMatcher(None, nome_completo, possivel_nome)
+    # Obtém o score de semelhança entre as duas strings
+    score = seq_matcher.ratio()
+    if score >= CMP_SCORE_MIN:
+        return True
+    else:
+        return False
+
+def info_nome(soup):
+    # Obtendo o HTML de extração do nome 
+    try:
+        nome_div = soup.find('section', class_="scaffold-layout-toolbar").find('div').find('div').find('div').find_all('div')[2].find('div')
+        nome = nome_div.get_text().strip()
+        return nome
+    except:
+        return ''
 
 # Funções que checam perfil acadêmico de usuário, comparam se uma instituição está presente e retorna booleano
 def info_academica_1(item_educacao):
@@ -56,11 +79,7 @@ def info_academica_2(item_educacao):
     return nome_instituicao, tipo_formacao, nome_formacao, duracao_formacao
 
 # Função para extrair as informações referente à Formação Acadêmica mais recente
-def checar_formacao_academica(driver, perfil_id, instituicoes):
-    # Acessando a página referente às formações acadêmicas
-    formacao_url = f"https://www.linkedin.com/in/{perfil_id}/details/education/"
-    driver.get(formacao_url)
-    
+def checar_formacao_academica(driver, instituicoes):
     # Lendo a página do início ao fim
     inicio = time.time()
     posicao_inicial_rolamento = 0
@@ -114,30 +133,37 @@ def checar_formacao_academica(driver, perfil_id, instituicoes):
     return ''
 
 # Função que compara o nome pesquisado ao nome encontrado. Se semelhantes, retorna o nome.
-def checar_nome(driver, perfil_id, possivel_nome):
-    perfil_url = f"https://www.linkedin.com/in/{perfil_id}/"
-    driver.get(perfil_url)
-    
-    # Salvando o código fonte da página em uma variável
-    src = driver.page_source
+def checar_nome(driver, nome_completo):
+    # Verificando se a página em questão se trata de um perfil ativo
+    if "linkedin.com/in" in driver.current_url:
+        # Salvando o código fonte da página em uma variável
+        src = driver.page_source
 
-    # Utilizando o código fonte para gerar um objeto Beautiful Soup
-    soup = BeautifulSoup(src,'lxml')
+        # Utilizando o código fonte para gerar um objeto Beautiful Soup
+        soup = BeautifulSoup(src,'lxml')
+        
+        nome = info_nome(soup)
+        
+        # Comparando os nomes, se semelhantes, retorna o nome
+        if comparar_nomes(nome_completo, nome):
+            return nome
+
+    # Caso as condicionais não se cumpram, retorna vazio
+    return ''
     
-    intro = soup.find('div',{'class': 'mt2 relative'})
+
+def checar_perfil(driver, perfil_id, nome_completo, instituicoes):
+    # Acessando a página referente às formações acadêmicas
+    formacao_url = f"https://www.linkedin.com/in/{perfil_id}/details/education/"
+    driver.get(formacao_url)
+    time.sleep(2)
     
-    # Localizando e extraindo o nome do candidato
-    nome_loc = intro.find('h1')
-    nome = nome_loc.get_text().strip()
+    nome_publico = checar_nome(driver, nome_completo)
+    if not nome_publico:
+        return '', ''
     
-    cont = 0
-    for n in remover_acentos(possivel_nome).lower():
-        if(n in remover_acentos(nome).lower()):
-            cont += 1
-    
-    if cont == len(possivel_nome):
-        return nome
-    else:
-        return ''
-    
-    
+    curso = checar_formacao_academica(driver, instituicoes)
+    if not curso:
+        return '', ''
+
+    return nome_publico, curso

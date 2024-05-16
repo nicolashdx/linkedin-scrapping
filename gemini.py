@@ -11,6 +11,9 @@ from itertools import combinations, product
 # Importando módulos necessários
 import credentials
 
+# Constantes de ajuste
+LEN_NOMES_GEMINI = 10
+
 # Função que recebe um nome completo e retorna todas as combinações possíveis de nome e sobrenome
 def Combinacoes_Nome(nome_completo):
     partes_nome = nome_completo.split()
@@ -37,6 +40,7 @@ def Combinacoes_Nome(nome_completo):
 
     return combinacoes
 
+
 # Função que utiliza a API do Gemini para prever qual possível nome é utilizado a partir de NLP.
 # A ideia é otimizar o tempo de varredura aumentando a predictibilidade do nome público
 def Gerar_Variacoes(nome_completo):
@@ -52,7 +56,7 @@ def Gerar_Variacoes(nome_completo):
     br = "\n"
 
     # Pergunta que será enviada ao Gemini
-    query = f"Use Processamento de Linguagem Natural para ordenar, do mais ao menos provável, 5 das possíveis variações que poderiam ser usadas como nome na plataforma Linkedin:\n{br.join(combinacoes)}\nApresente o resultado em uma lista em python, sem textos ou caracteres desnecessários"
+    query = f"Use Processamento de Linguagem Natural para ordenar, do mais ao menos provável, as possíveis variações que poderiam ser usadas como nome na plataforma Linkedin:\n{br.join(combinacoes)}\nApresente o resultado em uma lista em python ordenada, sem textos ou caracteres desnecessários"
 
     # Filtrando resposta para extrair uma lista com a sintaxe correta da linguagem 
     response = model.generate_content(query)

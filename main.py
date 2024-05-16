@@ -38,8 +38,12 @@ end_time = time()
 # Fechando o WebDriver
 webdriver.Close(driver)
 
+duracao = end_time-start_time
+min = duracao//60
+seg = duracao%60
+
 # Imprimindo o tempo de execução da varredura
-print(f"Duração: {end_time-start_time:.0f} segundos.")
+print(f"Tempo de execução: {min:.0f} minutos e {seg:.0f} segundos.")
 
 # Exportando para csv
 df = pd.DataFrame(result)
