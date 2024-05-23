@@ -37,7 +37,7 @@ else:
     Log('debug', 'Falha ao importar nomes buscados')
 
 # Busca que será feita junto a cada nome
-query = 'UFMG inurl:linkedin'
+query = 'UFMG linkedin'
 
 # Marcando tempo de início
 start_time = time()
