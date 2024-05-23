@@ -9,18 +9,20 @@ from duckduckgo_search import DDGS
 
 # Importando módulos necessários
 import credentials, validation, gemini
+from log import Log
 
 # Função que lê arquivo de texto e retorna um dicionário a ser preenchido após a varredura
 def Names_To_Track(txt_name):
     # Lendo arquivo com nomes de pessoas a serem localizadas
     pessoas = []
-
-    with open(txt_name, 'r', encoding='utf-8') as file:
-        linhas = file.readlines()
-
-    for linha in linhas:
-        pessoas.append({'Nome Completo':linha.replace('\n', ''), 'Nome Publico':'','Curso':'', 'Linkedin ID': '', 'Linkedin URL': ''})
-
+    try:
+        with open(txt_name, 'r', encoding='utf-8') as file:
+            linhas = file.readlines()
+        for linha in linhas:
+            pessoas.append({'Nome Completo':linha.replace('\n', ''), 'Nome Publico':'','Curso':'', 'Linkedin ID': '', 'Linkedin URL': ''})
+    except:
+        Log('error', 'Arquivo de nomes não encontrado.')
+        return None
     return pessoas
 
 # Função que utiliza a API de busca do Google para encontrar os perfis no Linkedin e retorna uma lista com os resultados
@@ -57,45 +59,71 @@ def Crawling(driver, nomes, busca):
     
     # Para cada uma das pessoas na lista de nomes
     for pessoa in nomes:
+        # Imprimindo status de progresso
+        if cont > 0:
+            perc = (cont/len(nomes))*100
+        else:
+            perc = 0
+        
+        Log('info', f"{perc:.0f}% - Procurando por {pessoa['Nome Completo']}:")
+        
         # Gerando combinações de nome público utilizando NLP
         possiveis_nomes = gemini.Gerar_Variacoes(pessoa['Nome Completo'])
-        print(f"Variações: {len(possiveis_nomes)}")
+        
+        rejeitados = []
         
         # Para cada uma das combinações
         for n in possiveis_nomes:
+            
             # Pesquisando variação
             results = Search_Name(n, busca)
+            Log('debug', f"Pesquisando por {n} {busca}")
             
             if len(results) > 0:
                 # Separando o primeiro link que contém um perfil nos resultados da busca
                 r = ''
+                Log('debug', f"Resultados: {', '.join(results)}")
                 for i in range(len(results)):
                     if "br.linkedin.com/in/" in results[i]:
                         r = results[i]
                         break
-                
                 # Verificando se um perfil foi encontrado nos resultados de busca
                 if r:
                     # Separando da url o ID do perfil
                     profile_id = r.rsplit("/in/", 1)[-1].strip()
                     
-                    # Verificando se o nome do perfil encontrado coincide com o nome buscado
-                    nome_publico, nome_formacao = validation.checar_perfil(driver, profile_id, pessoa['Nome Completo'], ["UFMG", "Universidade Federal de Minas Gerais"])
-                    # Se não, pular para a próxima iteração
-                    if not nome_publico or not nome_formacao:
-                        continue
-                    
-                    # Se as verificações forem bem sucedidas, preencher dados obtidos
-                    pessoa['Nome Publico'] = nome_publico
-                    pessoa['Curso'] = nome_formacao
-                    pessoa['Linkedin ID'] = profile_id
-                    pessoa['Linkedin URL'] = r
-                    break
+                    if(profile_id not in rejeitados):
+                        Log('detail', f"Perfil encontrado: {profile_id}")
+                        
+                        # Verificando se o nome do perfil encontrado coincide com o nome buscado
+                        nome_publico, nome_formacao = validation.checar_perfil(driver, profile_id, pessoa['Nome Completo'], ["UFMG", "Universidade Federal de Minas Gerais"])
+                        
+                        if nome_publico and nome_formacao:
+                            # Se as verificações forem bem sucedidas, preencher dados obtidos
+                            Log('detail', "O perfil passou na validação.")
+                            
+                            pessoa['Nome Publico'] = nome_publico
+                            pessoa['Curso'] = nome_formacao
+                            pessoa['Linkedin ID'] = profile_id
+                            pessoa['Linkedin URL'] = r
+                            break
+                        else:
+                        # Se não, pular para a próxima iteração
+                            rejeitados.append(profile_id)
+                            Log('detail', "O perfil não passou na validação.")
+                    else:
+                        Log('detail', f"Perfil já descartado.")
+                else:
+                    Log('detail', f"Perfil não encontrado.")
+            else: 
+                Log('detail', f"A pesquisa não retornou resultados.")
         
-        # Imprimindo status de progresso
+        if pessoa['Linkedin ID']:
+            Log('info', f"{pessoa['Nome Completo']} ENCONTRADO.")
+        else:
+            Log('warning', f"{pessoa['Nome Completo']} NÃO ENCONTRADO.")
+        
         cont += 1
-        perc = (cont/len(nomes))*100
-        print(f"{perc:.0f}% - {pessoa['Nome Completo']}")
     return nomes
     
 

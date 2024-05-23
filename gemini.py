@@ -10,9 +10,8 @@ from itertools import combinations, product
 
 # Importando módulos necessários
 import credentials
+from log import Log
 
-# Constantes de ajuste
-LEN_NOMES_GEMINI = 10
 
 # Função que recebe um nome completo e retorna todas as combinações possíveis de nome e sobrenome
 def Combinacoes_Nome(nome_completo):
@@ -46,7 +45,7 @@ def Combinacoes_Nome(nome_completo):
 def Gerar_Variacoes(nome_completo):
     # Gerando combinações
     combinacoes = Combinacoes_Nome(nome_completo)
-
+    
     # Instanciando Gemini
     GOOGLE_API_KEY = credentials.Google_Gemini_API_Key()
     genai.configure(api_key=GOOGLE_API_KEY)
@@ -56,18 +55,27 @@ def Gerar_Variacoes(nome_completo):
     br = "\n"
 
     # Pergunta que será enviada ao Gemini
-    query = f"Use Processamento de Linguagem Natural para ordenar, do mais ao menos provável, as possíveis variações que poderiam ser usadas como nome na plataforma Linkedin:\n{br.join(combinacoes)}\nApresente o resultado em uma lista em python ordenada, sem textos ou caracteres desnecessários"
+    query = f"A partir da lista informada, use Processamento de Linguagem Natural para ordenar, do mais ao menos provável, as {len(combinacoes)} possíveis variações que poderiam ser usadas como nome na plataforma Linkedin:\n{br.join(combinacoes)}\nApresente o resultado em uma lista em python ordenada, sem textos ou caracteres desnecessários"
 
-    # Filtrando resposta para extrair uma lista com a sintaxe correta da linguagem 
-    response = model.generate_content(query)
-    result = response.text.replace('\n', '')
-    result = result[result.find('['):result.find(']')+1]
+    # Filtrando resposta para extrair uma lista com a sintaxe correta da linguagem
+    response = ''
+    for i in range(5):
+        try:
+            response = model.generate_content(query)
+            result = response.text.replace('\n', '')
+            result = result[result.find('['):result.find(']')+1]
+            
+            break
+        except:
+            continue 
     try:
         nomes = literal_eval(result)
+        Log('debug', f"Variações de nome público: {', '.join(nomes)}")
         return nomes
     # Quando não é possível, retornar valor nulo
     except:
-        return None
+        Log('warning', "Falha ao ordenar variações de nome público.")
+        return combinacoes
 
 
 

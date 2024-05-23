@@ -18,14 +18,14 @@ def remover_acentos(string):
     return unidecode(string)
 
 def comparar_nomes(nome_completo, possivel_nome):
+    if len(possivel_nome) > len(nome_completo):
+        return 0
+    
     # Inicializa um objeto SequenceMatcher com as duas strings
     seq_matcher = SequenceMatcher(None, nome_completo, possivel_nome)
     # Obtém o score de semelhança entre as duas strings
     score = seq_matcher.ratio()
-    if score >= CMP_SCORE_MIN:
-        return True
-    else:
-        return False
+    return score
 
 def info_nome(soup):
     # Obtendo o HTML de extração do nome 
@@ -145,7 +145,10 @@ def checar_nome(driver, nome_completo):
         nome = info_nome(soup)
         
         # Comparando os nomes, se semelhantes, retorna o nome
-        if comparar_nomes(nome_completo, nome):
+        cmp = comparar_nomes(nome_completo, nome)
+        if cmp >= CMP_SCORE_MIN:
+            return nome
+        elif cmp >= 0.5 and "UFMG" in nome.upper():
             return nome
 
     # Caso as condicionais não se cumpram, retorna vazio

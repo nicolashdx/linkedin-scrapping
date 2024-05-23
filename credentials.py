@@ -3,11 +3,18 @@
 #   Aqui, estão as credenciais e chaves sensíveis que não podem ser expostas no código em si.
 #
 
+# Importando módulos necessários
+from log import Log
+
 # Credenciais de login de conta pessoal do Linkedin
 def Linkedin_Account(txt_name):
-    with open(txt_name, 'r') as file:
-        linhas = file.readlines()
-    return {"username": linhas[0].strip(), "password": linhas[1].strip()}
+    try:
+        with open(txt_name, 'r') as file:
+            linhas = file.readlines()
+        return {"username": linhas[0].strip(), "password": linhas[1].strip()}
+    except:
+        Log('error', 'Arquivo de login não encontrado.')
+        return {"username": '', "password": ''}
 
 # Chave da API de Custom Search
 def Google_API_Key():
