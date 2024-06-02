@@ -129,6 +129,10 @@ def checar_formacao_academica(driver, instituicoes):
                 formacoes.append({'instituicao': nome_instituicao, 'tipo': tipo_formacao, 'area': nome_formacao, 'duracao': duracao_formacao})
             except:
                 nome_instituicao, tipo_formacao, nome_formacao, duracao_formacao = '', '', '', ''
+    
+    # Invertendo a lista de formações acadêmicas, pois o último elemento é o mais antigo
+    formacoes.reverse()
+
     for nome in instituicoes:
         for f in formacoes:
             if(remover_acentos(nome).upper() == remover_acentos(f['instituicao']).upper()):

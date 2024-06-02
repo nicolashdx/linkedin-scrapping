@@ -1,0 +1,342 @@
+02/06/2024-01:36:56: Execucao iniciada.
+02/06/2024-01:36:57: 	Driver Selenium inicializado
+02/06/2024-01:37:03: 	Login efetuado com sucesso.
+02/06/2024-01:37:03: 	Nomes a buscar importados com sucesso.
+02/06/2024-01:37:03: VARREDURA INICIADA.
+02/06/2024-01:37:03: 0% - Procurando por Nicolas Henrique Dias Xavier:
+02/06/2024-01:37:06: 	Variacoes de nome publico: Nicolas Henrique Dias Xavier, Nicolas Henrique Dias, Nicolas Henrique Xavier, Nicolas Dias Xavier, Nicolas Dias, Nicolas Xavier, Nicolas Henrique
+02/06/2024-01:37:07: 	Pesquisando por Nicolas Henrique Dias Xavier UFMG linkedin
+02/06/2024-01:37:07: 	Resultados: https://br.linkedin.com/in/nicolashdx, https://br.linkedin.com/in/henrique-joaquim-napolis-dias-64abb62b3, https://br.linkedin.com/in/souza-ghd, https://br.linkedin.com/in/henrique-s-895319190, https://br.linkedin.com/in/alexandrehdiass
+02/06/2024-01:37:07: 		Perfil encontrado: nicolashdx
+02/06/2024-01:37:18: 		O perfil passou na validacao.
+02/06/2024-01:37:18: Nicolas Henrique Dias Xavier ENCONTRADO.
+02/06/2024-01:37:18: 5% - Procurando por Liz Pinheiro Lima Nogueira:
+02/06/2024-01:37:21: 	Variacoes de nome publico: Liz Pinheiro Lima Nogueira, Liz Pinheiro Nogueira, Liz Pinheiro Lima, Liz Lima Nogueira, Liz Nogueira, Liz Pinheiro, Liz Lima
+02/06/2024-01:37:22: 	Pesquisando por Liz Pinheiro Lima Nogueira UFMG linkedin
+02/06/2024-01:37:22: 	Resultados: https://www.linkedin.com/pub/dir/Liz/Pinheiro, https://br.linkedin.com/pub/dir/Liz/Pinheiro/br-0-Brasil, https://br.linkedin.com/in/liz-pinheiro-896677a1, https://www.linkedin.com/pub/dir/liza/pinheiro, https://www.linkedin.com/pub/dir/Liz/Pineiro/
+02/06/2024-01:37:22: 		Perfil encontrado: liz-pinheiro-896677a1
+02/06/2024-01:37:32: 		O perfil nao passou na validacao.
+02/06/2024-01:37:33: 	Pesquisando por Liz Pinheiro Nogueira UFMG linkedin
+02/06/2024-01:37:33: 	Resultados: https://www.linkedin.com/pub/dir/Liz+/Pinheiro/br-0-Brasil, https://br.linkedin.com/pub/dir/Liz/Pinheiro/br-0-Brasil, https://br.linkedin.com/pub/dir/Liz/Nogueira/br-0-Brazil, https://br.linkedin.com/in/liz-nogueira-8180a6a7, https://www.linkedin.com/pub/dir/+/Pinheiro+Nogueira
+02/06/2024-01:37:33: 		Perfil encontrado: liz-nogueira-8180a6a7
+02/06/2024-01:37:42: 		O perfil nao passou na validacao.
+02/06/2024-01:37:43: 	Pesquisando por Liz Pinheiro Lima UFMG linkedin
+02/06/2024-01:37:43: 	Resultados: https://www.linkedin.com/pub/dir/Liz/Pinheiro, https://www.linkedin.com/pub/dir/liza/pinheiro, https://br.linkedin.com/pub/dir/Liz/Pinheiro/br-0-Brasil, https://www.linkedin.com/pub/dir/Liz/Pineiro/, https://br.linkedin.com/in/liz-pinheiro-b55982170
+02/06/2024-01:37:43: 		Perfil encontrado: liz-pinheiro-b55982170
+02/06/2024-01:37:53: 		O perfil nao passou na validacao.
+02/06/2024-01:37:54: 	Pesquisando por Liz Lima Nogueira UFMG linkedin
+02/06/2024-01:37:54: 	Resultados: https://www.linkedin.com/pub/dir/Liz/Nogueira/us-0-United-States, https://br.linkedin.com/in/liz-nogueira-a27462264, https://somos.ufmg.br/professor/maria-alice-de-lima-gomes-nogueira, https://br.linkedin.com/in/liz-nogueira-8180a6a7, https://homepages.dcc.ufmg.br/~michele/
+02/06/2024-01:37:54: 		Perfil encontrado: liz-nogueira-a27462264
+02/06/2024-01:38:04: 		O perfil passou na validacao.
+02/06/2024-01:38:04: Liz Pinheiro Lima Nogueira ENCONTRADO.
+02/06/2024-01:38:04: 9% - Procurando por Carlos Ermidio Ferreira Caetano:
+02/06/2024-01:38:07: 	Variacoes de nome publico: Carlos Ermidio Ferreira Caetano, Carlos Ermidio Ferreira, Carlos Ermidio Caetano, Carlos Ferreira Caetano, Carlos Ferreira, Carlos Caetano, Carlos Ermidio
+02/06/2024-01:38:08: 	Pesquisando por Carlos Ermidio Ferreira Caetano UFMG linkedin
+02/06/2024-01:38:08: 	Resultados: https://br.linkedin.com/in/carlos-ermidio-f-caetano-63483b13a, https://somos.ufmg.br/professor/carlos-ermidio-ferreira-caetano, https://ufmg.br/a-universidade/pessoas/336173, https://www.escavador.com/sobre/197419592/carlos-ermidio-ferreira-caetano, https://dee.ufmg.br/team-details/carlos-ermidio-ferreira-caetano/
+02/06/2024-01:38:08: 		Perfil encontrado: carlos-ermidio-f-caetano-63483b13a
+02/06/2024-01:38:11: 		Score: 0.8214285714285714
+02/06/2024-01:38:17: 		O perfil passou na validacao.
+02/06/2024-01:38:17: Carlos Ermidio Ferreira Caetano ENCONTRADO.
+02/06/2024-01:38:17: 14% - Procurando por Frederico Ferreira Viana Matos:
+02/06/2024-01:38:20: 	Variacoes de nome publico: Frederico Ferreira Viana Matos, Frederico Ferreira Viana, Frederico Ferreira Matos, Frederico Ferreira, Frederico Viana Matos, Frederico Viana, Frederico Matos
+02/06/2024-01:38:22: 	Pesquisando por Frederico Ferreira Viana Matos UFMG linkedin
+02/06/2024-01:38:22: 	Resultados: https://www.escavador.com/sobre/6912838/frederico-ferreira-viana-matos, https://www.researchgate.net/profile/Frederico-Matos, https://delt.eng.ufmg.br/pesquisa-e-extensao/, https://orcid.org/0000-0003-3540-9351, https://at.linkedin.com/in/frederico-matos-38179669
+02/06/2024-01:38:22: 		Perfil nao encontrado.
+02/06/2024-01:38:23: 	Pesquisando por Frederico Ferreira Viana UFMG linkedin
+02/06/2024-01:38:23: 	Resultados: https://br.linkedin.com/in/frederico-leocadio-ferreira-446210168, https://ao.linkedin.com/in/cleusio-frederico-ferreira-37b159188, https://www.escavador.com/sobre/6912838/frederico-ferreira-viana-matos, https://br.linkedin.com/in/frederico-ferreira-b6b1b672, https://br.linkedin.com/in/fredericovianasilverio
+02/06/2024-01:38:23: 		Perfil encontrado: frederico-leocadio-ferreira-446210168
+02/06/2024-01:38:26: 		Score: 0.631578947368421
+02/06/2024-01:38:26: 		O perfil nao passou na validacao.
+02/06/2024-01:38:27: 	Pesquisando por Frederico Ferreira Matos UFMG linkedin
+02/06/2024-01:38:27: 	Resultados: https://www.linkedin.com/posts/frederico-matos-ferreira_im-thrilled-to-announce-that-this-month-activity-7089514477682839552-vH0u, https://www.linkedin.com/posts/frederico-matos-ferreira_ag5-skills-management-software-just-unwrapped-activity-7140721999324020736-RQ4E, https://nl.linkedin.com/in/frederico-matos-ferreira, https://www.linkedin.com/posts/frederico-matos-ferreira_hey-team-leaders-and-production-managers-activity-7183010783432192000-RgjY, https://www.linkedin.com/posts/frederico-matos-ferreira_technology-gaming-gamingindustry-activity-7082289510884990976-JA8L
+02/06/2024-01:38:27: 		Perfil nao encontrado.
+02/06/2024-01:38:28: 	Pesquisando por Frederico Ferreira UFMG linkedin
+02/06/2024-01:38:28: 	Resultados: https://br.linkedin.com/in/frederico-leocadio-ferreira-446210168, https://br.linkedin.com/in/fredleocadio, https://br.linkedin.com/in/frederico-ferreira-4240a9126, https://br.linkedin.com/in/frederico-ferreira-b6b1b672, https://www.linkedin.com/in/frederico-ferreira-18431934
+02/06/2024-01:38:28: 		Perfil ja descartado.
+02/06/2024-01:38:29: 	Pesquisando por Frederico Viana Matos UFMG linkedin
+02/06/2024-01:38:29: 	Resultados: https://at.linkedin.com/in/frederico-matos-38179669, https://at.linkedin.com/in/frederico-matos-38179669/en, https://www.researchgate.net/profile/Frederico-Matos, https://www.escavador.com/sobre/6912838/frederico-ferreira-viana-matos, https://www.linkedin.com/pub/dir/Frederico /Viana
+02/06/2024-01:38:29: 		Perfil nao encontrado.
+02/06/2024-01:38:30: 	Pesquisando por Frederico Viana UFMG linkedin
+02/06/2024-01:38:30: 	Resultados: https://br.linkedin.com/in/fredericovianasilverio, https://br.linkedin.com/in/fredericovianasilverio/en, https://br.linkedin.com/in/frederico-viana-santos-97041a146, https://pt.linkedin.com/in/fredericovianabr, https://pt.linkedin.com/in/frederico-viana-2068055
+02/06/2024-01:38:30: 		Perfil encontrado: fredericovianasilverio
+02/06/2024-01:38:34: 		Score: 0.6296296296296297
+02/06/2024-01:38:34: 		O perfil nao passou na validacao.
+02/06/2024-01:38:35: 	Pesquisando por Frederico Matos UFMG linkedin
+02/06/2024-01:38:35: 	Resultados: https://at.linkedin.com/in/frederico-matos-38179669/en, https://at.linkedin.com/in/frederico-matos-38179669, https://www.linkedin.com/posts/frederico-matos-38179669_im-happy-to-share-that-since-last-december-activity-7032404031721418752-tMDU, https://www.researchgate.net/profile/Frederico-Matos, https://www.linkedin.com/posts/frederico-matos-38179669_especializacao-em-energias-renovaveis-da-activity-6887337751625134080-2DZx
+02/06/2024-01:38:35: 		Perfil nao encontrado.
+02/06/2024-01:38:35: * Frederico Ferreira Viana Matos NAO ENCONTRADO.
+02/06/2024-01:38:35: 18% - Procurando por Ricardo Luiz da Silva Adriano:
+02/06/2024-01:38:38: 	Variacoes de nome publico: Ricardo Luiz da Silva Adriano, Ricardo Luiz da Silva, Ricardo Luiz Adriano, Ricardo da Silva, Ricardo Adriano, Ricardo Luiz, Ricardo da Silva Adriano
+02/06/2024-01:38:40: 	Pesquisando por Ricardo Luiz da Silva Adriano UFMG linkedin
+02/06/2024-01:38:40: 	Resultados: https://somos.ufmg.br/professor/ricardo-luiz-da-silva-adriano, https://pges.eng.ufmg.br/team-details/ricardo-luiz-da-silva-adriano/, https://www.ppgee.ufmg.br/diss_defesas_detalhes.php?aluno=2062, https://www.escavador.com/sobre/6624455/ricardo-luiz-da-silva-adriano, https://www.researchgate.net/profile/Ricardo-Adriano
+02/06/2024-01:38:40: 		Perfil nao encontrado.
+02/06/2024-01:38:41: 	Pesquisando por Ricardo Luiz da Silva UFMG linkedin
+02/06/2024-01:38:41: 	Resultados: https://somos.ufmg.br/professor/ricardo-luiz-da-silva-adriano, https://www.linkedin.com/pub/dir/RICARDO+LUIZ/PEREIRA+DA+SILVA/br-0-Brasil, https://pt.linkedin.com/posts/andre-silva366_programacao-programa-codigo-activity-7202373794223546368-Ytfc, https://br.linkedin.com/in/ricardo-luiz-da-silva-87754b169, https://br.linkedin.com/in/ricardo-silva-7634b11bb
+02/06/2024-01:38:41: 		Perfil encontrado: ricardo-luiz-da-silva-87754b169
+02/06/2024-01:38:51: 		O perfil nao passou na validacao.
+02/06/2024-01:38:52: 	Pesquisando por Ricardo Luiz Adriano UFMG linkedin
+02/06/2024-01:38:52: 	Resultados: https://somos.ufmg.br/professor/ricardo-luiz-da-silva-adriano, https://pges.eng.ufmg.br/team-details/ricardo-luiz-da-silva-adriano/, https://www.researchgate.net/profile/Ricardo-Adriano, https://br.linkedin.com/in/ricardo-adriano-7a6ab8156, https://br.linkedin.com/in/ricardoadf/en
+02/06/2024-01:38:52: 		Perfil encontrado: ricardo-adriano-7a6ab8156
+02/06/2024-01:39:02: 		O perfil passou na validacao.
+02/06/2024-01:39:02: Ricardo Luiz da Silva Adriano ENCONTRADO.
+02/06/2024-01:39:02: 23% - Procurando por Andre Paim Lemos:
+02/06/2024-01:39:04: 	Variacoes de nome publico: Andre Paim Lemos, Andre Paim, Andre Lemos
+02/06/2024-01:39:05: 	Pesquisando por Andre Paim Lemos UFMG linkedin
+02/06/2024-01:39:05: 	Resultados: https://br.linkedin.com/in/andrepaimlemos, https://www.linkedin.com/feed/update/urn:li:activity:7119690019220447232/, https://www.linkedin.com/posts/andrepaimlemos_loggers-vempraloggi-activity-6476077306245836800-3eYB, https://delt.eng.ufmg.br/equipe-docente/, https://www.linkedin.com/pub/dir/Andre/Paim+Lemos
+02/06/2024-01:39:06: 		Perfil encontrado: andrepaimlemos
+02/06/2024-01:39:09: 		Score: 0.9375
+02/06/2024-01:39:15: 		O perfil passou na validacao.
+02/06/2024-01:39:15: Andre Paim Lemos ENCONTRADO.
+02/06/2024-01:39:15: 27% - Procurando por Alessandro Fernandes Moreira:
+02/06/2024-01:39:16: 	Variacoes de nome publico: Alessandro Fernandes Moreira, Alessandro Fernandes, Alessandro Moreira
+02/06/2024-01:39:17: 	Pesquisando por Alessandro Fernandes Moreira UFMG linkedin
+02/06/2024-01:39:17: 	Resultados: https://somos.ufmg.br/professor/alessandro-fernandes-moreira, https://br.linkedin.com/in/alessandro-moreira-37b0bbaa, https://ufmg.br/a-universidade/gestao/dirigentes, https://dee.ufmg.br/team-details/alessandro-fernandes-moreira/, https://ufmg.br/a-universidade/pessoas/025550
+02/06/2024-01:39:17: 		Perfil encontrado: alessandro-moreira-37b0bbaa
+02/06/2024-01:39:27: 		O perfil passou na validacao.
+02/06/2024-01:39:27: Alessandro Fernandes Moreira ENCONTRADO.
+02/06/2024-01:39:27: 32% - Procurando por Braz de Jesus Cardoso Filho:
+02/06/2024-01:39:29: 	Variacoes de nome publico: Braz de Jesus Cardoso Filho, Braz Cardoso Filho, Braz de Jesus Filho, Braz de Jesus Cardoso, Braz Cardoso, Braz Filho, Braz de Jesus
+02/06/2024-01:39:30: 	Pesquisando por Braz de Jesus Cardoso Filho UFMG linkedin
+02/06/2024-01:39:30: 	Resultados: https://br.linkedin.com/in/braz-de-jesus-cardoso-filho-02b3a9a2, https://somos.ufmg.br/professor/braz-de-jesus-cardoso-filho, https://www.researchgate.net/profile/Braz-Cardoso-Filho, https://scholar.google.com/citations?user=lHu-XtUAAAAJ, https://ufmg.br/a-universidade/pessoas/060569
+02/06/2024-01:39:30: 		Perfil encontrado: braz-de-jesus-cardoso-filho-02b3a9a2
+02/06/2024-01:39:40: 		O perfil passou na validacao.
+02/06/2024-01:39:40: Braz de Jesus Cardoso Filho ENCONTRADO.
+02/06/2024-01:39:40: 36% - Procurando por Marcos Antonio Severo Mendes:
+02/06/2024-01:39:42: 	Variacoes de nome publico: Marcos Antonio Severo Mendes, Marcos Antonio Mendes, Marcos Antonio Severo, Marcos Mendes, Marcos Severo Mendes, Marcos Severo
+02/06/2024-01:39:44: 	Pesquisando por Marcos Antonio Severo Mendes UFMG linkedin
+02/06/2024-01:39:44: 	Resultados: https://somos.ufmg.br/professor/marcos-antonio-severo-mendes, https://www.researchgate.net/profile/Marcos-Mendes-2, https://www.researchgate.net/profile/Marcos-Severo-Mendes, https://www.escavador.com/sobre/2083075/marcos-antonio-severo-mendes, https://www.ppgee.ufmg.br/diss_defesas_detalhesi.php?aluno=1273
+02/06/2024-01:39:44: 		Perfil nao encontrado.
+02/06/2024-01:39:45: 	Pesquisando por Marcos Antonio Mendes UFMG linkedin
+02/06/2024-01:39:45: 	Resultados: https://br.linkedin.com/in/marcoantoniomendes, https://somos.ufmg.br/professor/marcos-antonio-severo-mendes, https://ufmg.br/a-universidade/pessoas/14777X, https://www.linkedin.com/pub/dir/Marco Antonio/Silva Da Silva, https://www.linkedin.com/pub/dir/Marcos+Antonio/Mendes
+02/06/2024-01:39:45: 		Perfil encontrado: marcoantoniomendes
+02/06/2024-01:39:48: 		O perfil nao passou na validacao.
+02/06/2024-01:39:49: 	Pesquisando por Marcos Antonio Severo UFMG linkedin
+02/06/2024-01:39:49: 	Resultados: https://br.linkedin.com/in/marcos-antonio-1526a12a, https://ufmg.br/a-universidade/pessoas/14777X, https://somos.ufmg.br/professor/marcos-antonio-severo-mendes, https://br.linkedin.com/in/marcos-antonio-de-camargos-3656162a, https://www.linkedin.com/pub/dir/marcos+antonio/severo
+02/06/2024-01:39:49: 		Perfil encontrado: marcos-antonio-1526a12a
+02/06/2024-01:39:53: 		O perfil nao passou na validacao.
+02/06/2024-01:39:54: 	Pesquisando por Marcos Mendes UFMG linkedin
+02/06/2024-01:39:54: 	Resultados: https://br.linkedin.com/in/marcomendes/en, https://br.linkedin.com/in/marcomendes, https://www.researchgate.net/profile/Marcos-Mendes-2, https://somos.ufmg.br/professor/marcos-antonio-severo-mendes, https://www.linkedin.com/in/marcos-mendes-72153326
+02/06/2024-01:39:54: 		Perfil encontrado: marcomendes/en
+02/06/2024-01:39:57: 		Score: 0.0
+02/06/2024-01:39:57: 		O perfil nao passou na validacao.
+02/06/2024-01:39:58: 	Pesquisando por Marcos Severo Mendes UFMG linkedin
+02/06/2024-01:39:58: 	Resultados: https://www.researchgate.net/profile/Marcos-Severo-Mendes, https://somos.ufmg.br/professor/marcos-antonio-severo-mendes, https://ufmg.br/a-universidade/pessoas/14777X, https://www.ppgee.ufmg.br/tese_defesas_detalhes.php?aluno=886, https://gep.eng.ufmg.br/pesquisa/defesas/
+02/06/2024-01:39:58: 		Perfil nao encontrado.
+02/06/2024-01:39:59: 	Pesquisando por Marcos Severo UFMG linkedin
+02/06/2024-01:39:59: 	Resultados: https://br.linkedin.com/in/misevero, https://br.linkedin.com/in/mvmsev, https://www.linkedin.com/today/author/marcos-severo-30967936, https://somos.ufmg.br/professor/marcos-antonio-severo-mendes, https://www.researchgate.net/profile/Marcos-Severo-Mendes
+02/06/2024-01:39:59: 		Perfil encontrado: misevero
+02/06/2024-01:40:09: 		O perfil nao passou na validacao.
+02/06/2024-01:40:09: * Marcos Antonio Severo Mendes NAO ENCONTRADO.
+02/06/2024-01:40:09: 41% - Procurando por Adriano Vilela Barbosa:
+02/06/2024-01:40:11: 	Variacoes de nome publico: Adriano Vilela Barbosa, Adriano Vilela, Adriano Barbosa
+02/06/2024-01:40:12: 	Pesquisando por Adriano Vilela Barbosa UFMG linkedin
+02/06/2024-01:40:12: 	Resultados: https://somos.ufmg.br/professor/adriano-vilela-barbosa, https://www.researchgate.net/profile/Adriano-Barbosa-7, https://scholar.google.co.il/citations?user=S-O0ugsAAAAJ&hl=en, https://delt.eng.ufmg.br/equipe-docente/, https://ufmg.br/a-universidade/pessoas/251860
+02/06/2024-01:40:12: 		Perfil nao encontrado.
+02/06/2024-01:40:13: 	Pesquisando por Adriano Vilela UFMG linkedin
+02/06/2024-01:40:13: 	Resultados: https://scholar.google.co.il/citations?user=S-O0ugsAAAAJ&hl=en, https://ufmg.br/a-universidade/pessoas/251860, https://somos.ufmg.br/professor/adriano-vilela-barbosa, https://br.linkedin.com/in/adriano-vilela-3b989567, https://br.linkedin.com/in/adriano-vilela-84bb43225
+02/06/2024-01:40:13: 		Perfil encontrado: adriano-vilela-3b989567
+02/06/2024-01:40:23: 		O perfil nao passou na validacao.
+02/06/2024-01:40:24: 	Pesquisando por Adriano Barbosa UFMG linkedin
+02/06/2024-01:40:24: 	Resultados: https://www.linkedin.com/posts/dr-adriano-barbosa-phd_spintec-covid-vacina-activity-7006528697742540800-gLMO, https://pt.linkedin.com/posts/dr-adriano-barbosa-phd_covid19-bioinformatics-computational-activity-6679735622481047552-sXGf, https://www.researchgate.net/profile/Adriano-Barbosa-7, https://www.adriano-barbosa.eu/past-affiliations/ufmg, https://www.linkedin.com/in/adrianobarboza/en
+02/06/2024-01:40:24: 		Perfil nao encontrado.
+02/06/2024-01:40:24: * Adriano Vilela Barbosa NAO ENCONTRADO.
+02/06/2024-01:40:24: 45% - Procurando por Luciano de Errico:
+02/06/2024-01:40:27: 	Variacoes de nome publico: Luciano de Errico
+02/06/2024-01:40:28: 	Pesquisando por Luciano de Errico UFMG linkedin
+02/06/2024-01:40:28: 	Resultados: https://somos.ufmg.br/professor/luciano-de-errico, https://www.researchgate.net/profile/Luciano-Errico, https://somos.ufmg.br/departamento/Departamento-de-Engenharia-Eletronica, https://www.escavador.com/sobre/5331692/luciano-de-errico, https://elo.fco.org.br/index.php?page=6&pesquisador=53
+02/06/2024-01:40:28: 		Perfil nao encontrado.
+02/06/2024-01:40:28: * Luciano de Errico NAO ENCONTRADO.
+02/06/2024-01:40:28: 50% - Procurando por Antonio de Padua Braga:
+02/06/2024-01:40:30: 	Variacoes de nome publico: Antonio de Padua Braga, Antonio Braga, Antonio de Padua
+02/06/2024-01:40:32: 	Pesquisando por Antonio de Padua Braga UFMG linkedin
+02/06/2024-01:40:32: 	Resultados: https://br.linkedin.com/in/apbraga, http://www.cpdee.ufmg.br/~apbraga/, https://scholar.google.com/citations?user=twRpocQAAAAJ, https://www.linkedin.com/pub/dir/Antonio+de+Padua/Braga, https://br.linkedin.com/in/antonio-de-padua-4798262a4
+02/06/2024-01:40:32: 		Perfil encontrado: apbraga
+02/06/2024-01:40:35: 		Score: 0.9545454545454546
+02/06/2024-01:40:41: 		O perfil passou na validacao.
+02/06/2024-01:40:41: Antonio de Padua Braga ENCONTRADO.
+02/06/2024-01:40:41: 55% - Procurando por Lenin Martins Ferreira Morais:
+02/06/2024-01:40:44: 	Variacoes de nome publico: Lenin Martins Ferreira Morais, Lenin Martins Ferreira, Lenin Martins Morais, Lenin Ferreira Morais, Lenin Ferreira, Lenin Morais, Lenin Martins
+02/06/2024-01:40:45: 	Pesquisando por Lenin Martins Ferreira Morais UFMG linkedin
+02/06/2024-01:40:45: 	Resultados: https://br.linkedin.com/in/lenin-martins-ferreira-morais-77ba0aa3, https://www.linkedin.com/posts/lenin-martins-ferreira-morais-77ba0aa3_gep-grupo-de-eletronica-de-potenciaufmg-activity-7135163111770103808-HOnn, https://www.linkedin.com/posts/lenin-martins-ferreira-morais-77ba0aa3_mestrado-em-engenharia-eletrica-oferece-80-activity-6841808409478664192-Y6z7, https://www.linkedin.com/posts/lenin-martins-ferreira-morais-77ba0aa3_e-sempre-muito-especial-receber-o-reconhecimento-activity-7114008053372362752-mpV5, https://www.linkedin.com/posts/lenin-martins-ferreira-morais-77ba0aa3_join-conversation-activity-6993199345848193024-nBCz
+02/06/2024-01:40:45: 		Perfil encontrado: lenin-martins-ferreira-morais-77ba0aa3
+02/06/2024-01:40:54: 		O perfil passou na validacao.
+02/06/2024-01:40:54: Lenin Martins Ferreira Morais ENCONTRADO.
+02/06/2024-01:40:54: 59% - Procurando por Armando Alves Neto:
+02/06/2024-01:40:57: 	Variacoes de nome publico: Armando Alves Neto, Armando Alves, Armando Neto
+02/06/2024-01:40:58: 	Pesquisando por Armando Alves Neto UFMG linkedin
+02/06/2024-01:40:58: 	Resultados: https://br.linkedin.com/in/armando-alves-neto-0b355147, http://www.cpdee.ufmg.br/~aaneto/, https://www.linkedin.com/company/macroufmg, https://scholar.google.com/citations?user=ZU3dtd8AAAAJ, https://somos.ufmg.br/professor/armando-alves-neto
+02/06/2024-01:40:58: 		Perfil encontrado: armando-alves-neto-0b355147
+02/06/2024-01:41:07: 		O perfil passou na validacao.
+02/06/2024-01:41:07: Armando Alves Neto ENCONTRADO.
+02/06/2024-01:41:07: 64% - Procurando por Alberto Resende de Conti:
+02/06/2024-01:41:09: 	Variacoes de nome publico: Alberto de Conti, Alberto Resende de Conti, Alberto Resende
+02/06/2024-01:41:10: 	Pesquisando por Alberto de Conti UFMG linkedin
+02/06/2024-01:41:10: 	Resultados: https://somos.ufmg.br/professor/alberto-resende-de-conti, https://dee.ufmg.br/team-details/alberto-resende-de-conti/, https://www.researchgate.net/profile/Alberto-Conti, https://ieeexplore.ieee.org/author/37393017500, http://cms.ufmg.br/a-universidade/pessoas/222704
+02/06/2024-01:41:10: 		Perfil nao encontrado.
+02/06/2024-01:41:11: 	Pesquisando por Alberto Resende de Conti UFMG linkedin
+02/06/2024-01:41:11: 	Resultados: https://dee.ufmg.br/team-details/alberto-resende-de-conti/, https://somos.ufmg.br/professor/alberto-resende-de-conti, http://cms.ufmg.br/a-universidade/pessoas/222704, https://www.escavador.com/sobre/2028079/alberto-resende-de-conti, https://www.ppgee.ufmg.br/diss_defesas_detalhes.php?aluno=1366
+02/06/2024-01:41:11: 		Perfil nao encontrado.
+02/06/2024-01:41:12: 	Pesquisando por Alberto Resende UFMG linkedin
+02/06/2024-01:41:12: 	Resultados: https://somos.ufmg.br/professor/alberto-resende-de-conti, https://dee.ufmg.br/team-details/alberto-resende-de-conti/, https://www.linkedin.com/pub/dir/alberto/resende, http://cms.ufmg.br/a-universidade/pessoas/222704, https://br.linkedin.com/in/albertorezendesilva
+02/06/2024-01:41:12: 		Perfil encontrado: albertorezendesilva
+02/06/2024-01:41:16: 		Score: 0.717948717948718
+02/06/2024-01:41:16: 		O perfil nao passou na validacao.
+02/06/2024-01:41:16: * Alberto Resende de Conti NAO ENCONTRADO.
+02/06/2024-01:41:16: 68% - Procurando por Elson Jose da Silva:
+02/06/2024-01:41:18: 	Variacoes de nome publico: Elson Jose da Silva, Elson Jose, Elson da Silva
+02/06/2024-01:41:19: 	Pesquisando por Elson Jose da Silva UFMG linkedin
+02/06/2024-01:41:19: 	Resultados: https://br.linkedin.com/in/elson-silva-9818691a, https://ufmg.br/a-universidade/pessoas/080411, https://pt.linkedin.com/posts/elsonjosedasilva_lideragov-activity-6956686907405684736-xRTI, https://www.researchgate.net/profile/Elson-Silva-6, https://www.linkedin.com/posts/elsonjosedasilva_httpunbouncepagescomidentidade-cidada-activity-7075283270535458816-dS4A
+02/06/2024-01:41:19: 		Perfil encontrado: elson-silva-9818691a
+02/06/2024-01:41:22: 		Score: 0.6666666666666666
+02/06/2024-01:41:22: 		O perfil nao passou na validacao.
+02/06/2024-01:41:23: 	Pesquisando por Elson Jose UFMG linkedin
+02/06/2024-01:41:23: 	Resultados: https://ufmg.br/a-universidade/pessoas/080411, https://www.linkedin.com/posts/elsonjosedasilva_activity-7061413735180963840-w31M, https://br.linkedin.com/in/elson-silva-9818691a, https://somos.ufmg.br/professor/elson-jose-da-silva, https://br.linkedin.com/in/elson-jose-2688812b4
+02/06/2024-01:41:23: 		Perfil ja descartado.
+02/06/2024-01:41:24: 	Pesquisando por Elson da Silva UFMG linkedin
+02/06/2024-01:41:24: 	Resultados: https://br.linkedin.com/in/elson-silva-9818691a, https://ufmg.br/a-universidade/pessoas/080411, https://br.linkedin.com/in/elson-da-silva-capinam-90b8602a6, https://www.linkedin.com/pub/dir/Elson  Da Silva/Silva, https://somos.ufmg.br/professor/elson-jose-da-silva
+02/06/2024-01:41:24: 		Perfil ja descartado.
+02/06/2024-01:41:24: * Elson Jose da Silva NAO ENCONTRADO.
+02/06/2024-01:41:24: 73% - Procurando por Fernando Henrique Silveira:
+02/06/2024-01:41:27: 	Variacoes de nome publico: Fernando Henrique Silveira, Fernando Silveira, Fernando Henrique
+02/06/2024-01:41:28: 	Pesquisando por Fernando Henrique Silveira UFMG linkedin
+02/06/2024-01:41:28: 	Resultados: https://somos.ufmg.br/professor/fernando-henrique-silveira, https://br.linkedin.com/in/fernando-silveira-01579838, https://ufmg.br/a-universidade/pessoas/222836, https://br.linkedin.com/in/fernando-silveira-755b3922, https://br.linkedin.com/in/fernando-silveira-755b3922/en
+02/06/2024-01:41:28: 		Perfil encontrado: fernando-silveira-01579838
+02/06/2024-01:41:37: 		O perfil nao passou na validacao.
+02/06/2024-01:41:38: 	Pesquisando por Fernando Silveira UFMG linkedin
+02/06/2024-01:41:38: 	Resultados: https://br.linkedin.com/in/fernando-silveira-12457410, https://br.linkedin.com/in/fernando-silveira-755b3922, https://www.researchgate.net/profile/Fernando-Silveira-8, https://br.linkedin.com/in/fernando-silveira-755b3922/en, https://www.researchgate.net/profile/Fernando-Silveira-12
+02/06/2024-01:41:38: 		Perfil encontrado: fernando-silveira-12457410
+02/06/2024-01:41:48: 		O perfil passou na validacao.
+02/06/2024-01:41:48: Fernando Henrique Silveira ENCONTRADO.
+02/06/2024-01:41:48: 77% - Procurando por Marco Aurelio de Souza Birchal:
+02/06/2024-01:41:51: 	Variacoes de nome publico: Marco Aurelio de Souza Birchal, Marco Aurelio de Souza, Marco Aurelio Birchal, Marco de Souza, Marco Birchal
+02/06/2024-01:41:52: 	Pesquisando por Marco Aurelio de Souza Birchal UFMG linkedin
+02/06/2024-01:41:52: 	Resultados: https://ufmg.br/a-universidade/pessoas/247421, https://somos.ufmg.br/professor/marco-aurelio-de-souza-birchal, https://www.researchgate.net/profile/Marco-Aurelio-Birchal, https://www.escavador.com/sobre/2351958/marco-aurelio-de-souza-birchal, https://ufmg.br/comunicacao/noticias/resgate-da-memoria-videogames-e-computadores-antigos-sao-expostos-na-biblioteca-publica
+02/06/2024-01:41:52: 		Perfil nao encontrado.
+02/06/2024-01:41:53: 	Pesquisando por Marco Aurelio de Souza UFMG linkedin
+02/06/2024-01:41:53: 	Resultados: https://ufmg.br/a-universidade/pessoas/247421, https://br.linkedin.com/in/marco-souza-educ, https://br.linkedin.com/in/marco-aurelio-souza-38032b49/en, https://br.linkedin.com/in/marco-aurelio-rodrigues-de-souza-132574167, https://somos.ufmg.br/professor/marco-aurelio-de-souza-birchal
+02/06/2024-01:41:53: 		Perfil encontrado: marco-souza-educ
+02/06/2024-01:42:03: 		O perfil nao passou na validacao.
+02/06/2024-01:42:04: 	Pesquisando por Marco Aurelio Birchal UFMG linkedin
+02/06/2024-01:42:04: 	Resultados: https://ufmg.br/a-universidade/pessoas/247421, https://somos.ufmg.br/professor/marco-aurelio-de-souza-birchal, https://br.linkedin.com/in/marco-aurelio-birchal-54aa8460, https://www.researchgate.net/profile/Marco-Aurelio-Birchal, https://www.linkedin.com/pub/dir/Aurelio/Santos - Ibadig Medio
+02/06/2024-01:42:04: 		Perfil encontrado: marco-aurelio-birchal-54aa8460
+02/06/2024-01:42:07: 		Score: 0.7843137254901961
+02/06/2024-01:42:07: 		O perfil nao passou na validacao.
+02/06/2024-01:42:09: 	Pesquisando por Marco de Souza UFMG linkedin
+02/06/2024-01:42:09: 	Resultados: https://ufmg.br/a-universidade/pessoas/147702, https://www.linkedin.com/in/marco-de-sousa-7750357, https://br.linkedin.com/in/marco-antonio-souza-jardim-b68b26b, https://www.linkedin.com/in/marco-souza-67505665, https://ca.linkedin.com/in/marco-antonio-sousa-alves-059a436a
+02/06/2024-01:42:09: 		Perfil encontrado: marco-antonio-souza-jardim-b68b26b
+02/06/2024-01:42:12: 		Score: 0.6071428571428571
+02/06/2024-01:42:12: 		O perfil nao passou na validacao.
+02/06/2024-01:42:13: 	Pesquisando por Marco Birchal UFMG linkedin
+02/06/2024-01:42:13: 	Resultados: https://ufmg.br/a-universidade/pessoas/247421, https://www.researchgate.net/profile/Marco-Aurelio-Birchal, https://www.linkedin.com/company/birchal, https://www.linkedin.com/posts/marco-busellato_advancedmanagementprogram-ieuniversity-activity-7202716403311734785-rUbr, https://www.linkedin.com/posts/marcohirschmann_2ring-webex-webexcontactcenter-activity-7199055874005381121-1ecc
+02/06/2024-01:42:13: 		Perfil nao encontrado.
+02/06/2024-01:42:13: * Marco Aurelio de Souza Birchal NAO ENCONTRADO.
+02/06/2024-01:42:13: 82% - Procurando por Igor Amariz Pires:
+02/06/2024-01:42:15: 	Variacoes de nome publico: Igor Amariz Pires, Igor Amariz, Igor Pires
+02/06/2024-01:42:16: 	Pesquisando por Igor Amariz Pires UFMG linkedin
+02/06/2024-01:42:16: 	Resultados: https://somos.ufmg.br/professor/igor-amariz-pires, http://www.cpdee.ufmg.br/~renovaveis/index.php/corpo-docente.html, https://br.linkedin.com/in/igor-pires-93b92660, https://www.researchgate.net/profile/Igor-Pires, https://ieeexplore.ieee.org/author/38016485200
+02/06/2024-01:42:16: 		Perfil encontrado: igor-pires-93b92660
+02/06/2024-01:42:26: 		O perfil passou na validacao.
+02/06/2024-01:42:26: Igor Amariz Pires ENCONTRADO.
+02/06/2024-01:42:26: 86% - Procurando por Luciano Cunha de Araujo Pimenta:
+02/06/2024-01:42:29: 	Variacoes de nome publico: Luciano Cunha de Araujo Pimenta, Luciano Cunha de Araujo, Luciano Cunha Pimenta, Luciano de Araujo Pimenta, Luciano de Araujo, Luciano Pimenta, Luciano Cunha
+02/06/2024-01:42:30: 	Pesquisando por Luciano Cunha de Araujo Pimenta UFMG linkedin
+02/06/2024-01:42:30: 	Resultados: https://www.linkedin.com/company/macroufmg, https://ufmg.br/a-universidade/pessoas/216364, https://somos.ufmg.br/professor/luciano-cunha-de-araujo-pimenta, https://scholar.google.com/citations?user=jF9S_gMAAAAJ, https://www.linkedin.com/posts/macroufmg_macro-ufmg-iros2023-activity-7123037054191423488-PtIt
+02/06/2024-01:42:30: 		Perfil nao encontrado.
+02/06/2024-01:42:31: 	Pesquisando por Luciano Cunha de Araujo UFMG linkedin
+02/06/2024-01:42:31: 	Resultados: https://www.linkedin.com/company/macroufmg, https://somos.ufmg.br/professor/luciano-cunha-de-araujo-pimenta, https://ciia-saude.dcc.ufmg.br/pesquisador/luciano-cunha-de-araujo-pimenta/, https://ufmg.br/a-universidade/pessoas/216364, https://delt.eng.ufmg.br/laboratorios/
+02/06/2024-01:42:31: 		Perfil nao encontrado.
+02/06/2024-01:42:32: 	Pesquisando por Luciano Cunha Pimenta UFMG linkedin
+02/06/2024-01:42:32: 	Resultados: https://www.linkedin.com/company/macroufmg, https://ufmg.br/a-universidade/pessoas/216364, https://somos.ufmg.br/professor/luciano-cunha-de-araujo-pimenta, https://scholar.google.com/citations?user=jF9S_gMAAAAJ, https://ciia-saude.dcc.ufmg.br/pesquisador/luciano-cunha-de-araujo-pimenta/
+02/06/2024-01:42:32: 		Perfil nao encontrado.
+02/06/2024-01:42:33: 	Pesquisando por Luciano de Araujo Pimenta UFMG linkedin
+02/06/2024-01:42:33: 	Resultados: https://www.linkedin.com/company/macroufmg, https://somos.ufmg.br/professor/luciano-cunha-de-araujo-pimenta, https://ciia-saude.dcc.ufmg.br/pesquisador/luciano-cunha-de-araujo-pimenta/, https://ufmg.br/a-universidade/pessoas/216364, https://www.linkedin.com/posts/macroufmg_macro-ufmg-iros2023-activity-7123037054191423488-PtIt
+02/06/2024-01:42:33: 		Perfil nao encontrado.
+02/06/2024-01:42:34: 	Pesquisando por Luciano de Araujo UFMG linkedin
+02/06/2024-01:42:34: 	Resultados: https://www.linkedin.com/company/macroufmg, https://ca.linkedin.com/in/daniloaraujomarques, https://br.linkedin.com/in/luciano-de-araujo-e-silva-486662a1, https://somos.ufmg.br/professor/luciano-de-araujo-ferraz, https://www.linkedin.com/pub/dir/Luciano/de+Araujo+Mendonca
+02/06/2024-01:42:34: 		Perfil encontrado: luciano-de-araujo-e-silva-486662a1
+02/06/2024-01:42:38: 		Score: 0.7142857142857143
+02/06/2024-01:42:38: 		O perfil nao passou na validacao.
+02/06/2024-01:42:39: 	Pesquisando por Luciano Pimenta UFMG linkedin
+02/06/2024-01:42:39: 	Resultados: https://www.linkedin.com/company/macroufmg, https://scholar.google.com/citations?user=jF9S_gMAAAAJ, https://www.linkedin.com/posts/macroufmg_macro-ufmg-iros2023-activity-7123037054191423488-PtIt, https://somos.ufmg.br/professor/luciano-cunha-de-araujo-pimenta, https://www.researchgate.net/profile/Luciano-Pimenta
+02/06/2024-01:42:39: 		Perfil nao encontrado.
+02/06/2024-01:42:40: 	Pesquisando por Luciano Cunha UFMG linkedin
+02/06/2024-01:42:40: 	Resultados: https://www.linkedin.com/company/macroufmg, https://somos.ufmg.br/professor/luciano-cunha-de-araujo-pimenta, https://br.linkedin.com/in/luciano-s-l-cunha-11314934, https://ciia-saude.dcc.ufmg.br/pesquisador/luciano-cunha-de-araujo-pimenta/, https://br.linkedin.com/in/luciano-cunha-cpa/en
+02/06/2024-01:42:40: 		Perfil encontrado: luciano-s-l-cunha-11314934
+02/06/2024-01:42:43: 		Score: 0.52
+02/06/2024-01:42:43: 		O perfil nao passou na validacao.
+02/06/2024-01:42:43: * Luciano Cunha de Araujo Pimenta NAO ENCONTRADO.
+02/06/2024-01:42:43: 91% - Procurando por Vitor Angelo Maria Ferreira Torres:
+02/06/2024-01:42:48: 	Variacoes de nome publico: Vitor Angelo Maria Ferreira Torres, Vitor Angelo Maria Ferreira, Vitor Angelo Maria Torres, Vitor Angelo Ferreira Torres, Vitor Angelo Ferreira, Vitor Angelo Torres, Vitor Maria Ferreira Torres, Vitor Maria Ferreira, Vitor Maria Torres, Vitor Ferreira Torres, Vitor Maria Angelo Ferreira, Vitor Maria Angelo Torres, Vitor Ferreira Angelo Torres, Vitor Maria Angelo Ferreira Torres, Vitor Ferreira Angelo Maria Torres
+02/06/2024-01:42:49: 	Pesquisando por Vitor Angelo Maria Ferreira Torres UFMG linkedin
+02/06/2024-01:42:49: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://delt.eng.ufmg.br/equipe-docente/, https://br.linkedin.com/in/vitor-angelo-ferreira-392297306, https://somos.ufmg.br/departamento/Departamento-de-Engenharia-Eletronica, https://www.linkedin.com/pub/dir/Victor+Angelo/Torres
+02/06/2024-01:42:49: 		Perfil encontrado: vitor-angelo-ferreira-392297306
+02/06/2024-01:42:59: 		O perfil nao passou na validacao.
+02/06/2024-01:43:00: 	Pesquisando por Vitor Angelo Maria Ferreira UFMG linkedin
+02/06/2024-01:43:00: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://delt.eng.ufmg.br/equipe-docente/, https://br.linkedin.com/in/victor-angelo-564b42222, https://br.linkedin.com/in/vitor-augusto-ferreira-6ab4b927, https://www.linkedin.com/pub/dir/Vitor/Angelo/
+02/06/2024-01:43:00: 		Perfil encontrado: victor-angelo-564b42222
+02/06/2024-01:43:03: 		Score: 0.5106382978723404
+02/06/2024-01:43:03: 		O perfil nao passou na validacao.
+02/06/2024-01:43:05: 	Pesquisando por Vitor Angelo Maria Torres UFMG linkedin
+02/06/2024-01:43:05: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://delt.eng.ufmg.br/equipe-docente/, https://br.linkedin.com/in/vitor-angelo-6060b6303, https://br.linkedin.com/in/victor-angelo-564b42222, https://www.linkedin.com/pub/dir/Victor+Angelo/Torres
+02/06/2024-01:43:05: 		Perfil encontrado: vitor-angelo-6060b6303
+02/06/2024-01:43:08: 		Score: 0.5217391304347826
+02/06/2024-01:43:08: 		O perfil nao passou na validacao.
+02/06/2024-01:43:09: 	Pesquisando por Vitor Angelo Ferreira Torres UFMG linkedin
+02/06/2024-01:43:09: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://delt.eng.ufmg.br/equipe-docente/, https://br.linkedin.com/in/vitor-lara-a347ba202, https://br.linkedin.com/in/vitor-a-aa1976142, https://www.linkedin.com/pub/dir/Victor+Angelo/Torres
+02/06/2024-01:43:09: 		Perfil encontrado: vitor-lara-a347ba202
+02/06/2024-01:43:13: 		O perfil nao passou na validacao.
+02/06/2024-01:43:14: 	Pesquisando por Vitor Angelo Ferreira UFMG linkedin
+02/06/2024-01:43:14: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://br.linkedin.com/in/paulo-vitor-angelo-26193264, https://br.linkedin.com/in/vitor-a-aa1976142, https://br.linkedin.com/in/vitor-angelo-ferreira-392297306, https://www.linkedin.com/pub/dir/Angelo+vitor/+
+02/06/2024-01:43:14: 		Perfil encontrado: paulo-vitor-angelo-26193264
+02/06/2024-01:43:18: 		Score: 0.38461538461538464
+02/06/2024-01:43:18: 		O perfil nao passou na validacao.
+02/06/2024-01:43:19: 	Pesquisando por Vitor Angelo Torres UFMG linkedin
+02/06/2024-01:43:19: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://www.linkedin.com/pub/dir/Victor+Angelo/Torres, https://br.linkedin.com/in/paulo-vitor-angelo-26193264, https://www.linkedin.com/pub/dir/Vitor/Angelo, https://br.linkedin.com/in/victor-angelo-564b42222
+02/06/2024-01:43:19: 		Perfil ja descartado.
+02/06/2024-01:43:20: 	Pesquisando por Vitor Maria Ferreira Torres UFMG linkedin
+02/06/2024-01:43:20: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://br.linkedin.com/in/vrmoreira, https://br.linkedin.com/in/fmjvitor, https://br.linkedin.com/in/victor-ferreira-torres-09381031, https://br.linkedin.com/in/vitor-a-aa1976142
+02/06/2024-01:43:20: 		Perfil encontrado: vrmoreira
+02/06/2024-01:43:24: 		Score: 0.5357142857142857
+02/06/2024-01:43:24: 		O perfil nao passou na validacao.
+02/06/2024-01:43:25: 	Pesquisando por Vitor Maria Ferreira UFMG linkedin
+02/06/2024-01:43:25: 	Resultados: https://br.linkedin.com/in/fmjvitor, https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://pt.linkedin.com/in/vitor-ferreira-648225153, https://www.linkedin.com/in/vitor-ferreira-942825194, https://br.linkedin.com/in/vitor-f-ferreira-2a8ba94a
+02/06/2024-01:43:25: 		Perfil encontrado: fmjvitor
+02/06/2024-01:43:29: 		Score: 0.6229508196721312
+02/06/2024-01:43:29: 		O perfil nao passou na validacao.
+02/06/2024-01:43:30: 	Pesquisando por Vitor Maria Torres UFMG linkedin
+02/06/2024-01:43:30: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://www.researchgate.net/profile/Vitor-Torres-4, https://br.linkedin.com/in/maria-alice-torres-elias-laboissiere-72502a288, https://br.linkedin.com/in/vitor-a-aa1976142, https://au.linkedin.com/in/vitormrpereira
+02/06/2024-01:43:30: 		Perfil encontrado: maria-alice-torres-elias-laboissiere-72502a288
+02/06/2024-01:43:33: 		O perfil nao passou na validacao.
+02/06/2024-01:43:35: 	Pesquisando por Vitor Ferreira Torres UFMG linkedin
+02/06/2024-01:43:35: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://br.linkedin.com/in/fmjvitor, https://br.linkedin.com/in/vitor-ferreira-98471a137, https://www.linkedin.com/in/vitor-ferreira-942825194, https://www.linkedin.com/pub/dir/+/Vitor+ferreira
+02/06/2024-01:43:35: 		Perfil ja descartado.
+02/06/2024-01:43:36: 	Pesquisando por Vitor Maria Angelo Ferreira UFMG linkedin
+02/06/2024-01:43:36: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://br.linkedin.com/in/fmjvitor, https://br.linkedin.com/in/vitor-angelo-ferreira-392297306, https://br.linkedin.com/school/ufmg/, https://www.linkedin.com/in/vitor-ferreira-779a11114
+02/06/2024-01:43:36: 		Perfil ja descartado.
+02/06/2024-01:43:37: 	Pesquisando por Vitor Maria Angelo Torres UFMG linkedin
+02/06/2024-01:43:37: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://delt.eng.ufmg.br/equipe-docente/, https://br.linkedin.com/in/paulo-vitor-angelo-26193264, https://www.linkedin.com/pub/dir/Victor+Angelo/Torres, https://ve.linkedin.com/in/victor-torres-7738b78a
+02/06/2024-01:43:37: 		Perfil ja descartado.
+02/06/2024-01:43:39: 	Pesquisando por Vitor Ferreira Angelo Torres UFMG linkedin
+02/06/2024-01:43:39: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://www.linkedin.com/in/vitor-ferreira-942825194, https://www.linkedin.com/pub/dir/Victor+Angelo/Torres, https://www.researchgate.net/profile/Vitor-Torres-4, https://br.linkedin.com/in/fmjvitor
+02/06/2024-01:43:39: 		Perfil ja descartado.
+02/06/2024-01:43:40: 	Pesquisando por Vitor Maria Angelo Ferreira Torres UFMG linkedin
+02/06/2024-01:43:40: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://delt.eng.ufmg.br/equipe-docente/, https://br.linkedin.com/school/ufmg/, https://br.linkedin.com/in/fmjvitor, https://br.linkedin.com/in/vitor-a-aa1976142
+02/06/2024-01:43:40: 		Perfil ja descartado.
+02/06/2024-01:43:41: 	Pesquisando por Vitor Ferreira Angelo Maria Torres UFMG linkedin
+02/06/2024-01:43:41: 	Resultados: https://somos.ufmg.br/professor/vitor-angelo-maria-ferreira-torres, https://www.linkedin.com/in/vitor-ferreira-942825194, https://somos.ufmg.br/departamento/Departamento-de-Engenharia-Eletronica, https://br.linkedin.com/in/victor-ferreira-torres-09381031, https://www.researchgate.net/profile/Vitor-Torres-4
+02/06/2024-01:43:41: 		Perfil encontrado: victor-ferreira-torres-09381031
+02/06/2024-01:43:44: 		Score: 0.75
+02/06/2024-01:43:44: 		O perfil nao passou na validacao.
+02/06/2024-01:43:44: * Vitor Angelo Maria Ferreira Torres NAO ENCONTRADO.
+02/06/2024-01:43:44: 95% - Procurando por Bruno Otavio Soares Teixeira:
+02/06/2024-01:43:47: 	Variacoes de nome publico: Bruno Otavio Soares Teixeira, Bruno Otavio Teixeira, Bruno Otavio Soares, Bruno Soares Teixeira, Bruno Teixeira, Bruno Soares, Bruno Otavio
+02/06/2024-01:43:49: 	Pesquisando por Bruno Otavio Soares Teixeira UFMG linkedin
+02/06/2024-01:43:49: 	Resultados: https://br.linkedin.com/in/bruno-otavio-soares-teixeira-b15898206, https://www.linkedin.com/posts/bruno-otavio-soares-teixeira-b15898206_mostra-sua-ufmg-esta-de-volta-ao-campus-pampulha-activity-7065026251542937600-FMPP, https://www.linkedin.com/posts/bruno-otavio-soares-teixeira-b15898206_ufmg-tem-mais-de-80-dos-cursos-de-graduacao-activity-6978483286515826688-nSjx, https://pt.linkedin.com/posts/bruno-otavio-soares-teixeira-b15898206_ufmg-consolida-posicao-de-melhor-federal-activity-7181751509620056065-lcgc, https://www.linkedin.com/posts/bruno-otavio-soares-teixeira-b15898206_a-ufmg-segue-como-a-universidade-federal-activity-7047713232156786688-B_NX
+02/06/2024-01:43:49: 		Perfil encontrado: bruno-otavio-soares-teixeira-b15898206
+02/06/2024-01:43:59: 		O perfil passou na validacao.
+02/06/2024-01:43:59: Bruno Otavio Soares Teixeira ENCONTRADO.
+02/06/2024-01:43:59: VARREDURA FINALIZADA.
+02/06/2024-01:44:00: 	Driver Selenium encerrado.
+02/06/2024-01:44:00: TEMPO DE EXECUCAO DA VARREDURA: 6 minutos e 56 segundos.
+02/06/2024-01:44:00: Dados exportados com sucesso.
+02/06/2024-01:44:00: Encerrando programa.

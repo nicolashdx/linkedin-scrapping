@@ -1,11 +1,12 @@
 import logging
 from datetime import datetime
+from unidecode import unidecode
 
 class Log:
     def __init__(self, lvl, msg):
         current_time = datetime.now().strftime('%d/%m/%Y-%H:%M:%S')
         self.level = lvl
-        self.message = msg
+        self.message = unidecode(msg)
         
         if self.level == 'detail':
             text = f"{current_time}: \t\t{self.message}"
