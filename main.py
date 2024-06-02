@@ -13,10 +13,10 @@ from log import Log
 
 Log.Init()
 
-Log('info', 'Execução iniciada.')
+Log('info', 'Execucao iniciada.')
 
 # Inicializando WebDriver do Selenium através da função que recebe o caminho até o driver
-driver = webdriver.Init("chromedriver-win64\chromedriver.exe")
+driver = webdriver.Init("chromedriver-win64\\chromedriver.exe")
 
 if(driver):
     Log('debug', 'Driver Selenium inicializado')

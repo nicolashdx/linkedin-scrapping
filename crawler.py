@@ -20,7 +20,7 @@ def Names_To_Track(txt_name):
         for linha in linhas:
             pessoas.append({'Nome Completo':linha.replace('\n', ''), 'Nome Publico':'','Curso':'', 'Linkedin ID': '', 'Linkedin URL': ''})
     except:
-        Log('error', 'Arquivo de nomes não encontrado.')
+        Log('error', 'Arquivo de nomes nao encontrado.')
         return None
     return pessoas
 
@@ -86,7 +86,7 @@ def Crawling(driver, nomes, busca):
                         
                         if nome_publico and nome_formacao:
                             # Se as verificações forem bem sucedidas, preencher dados obtidos
-                            Log('detail', "O perfil passou na validação.")
+                            Log('detail', "O perfil passou na validacao.")
                             
                             pessoa['Nome Publico'] = nome_publico
                             pessoa['Curso'] = nome_formacao
@@ -96,18 +96,18 @@ def Crawling(driver, nomes, busca):
                         else:
                         # Se não, pular para a próxima iteração
                             rejeitados.append(profile_id)
-                            Log('detail', "O perfil não passou na validação.")
+                            Log('detail', "O perfil nao passou na validacao.")
                     else:
                         Log('detail', f"Perfil já descartado.")
                 else:
-                    Log('detail', f"Perfil não encontrado.")
+                    Log('detail', f"Perfil nao encontrado.")
             else: 
-                Log('detail', f"A pesquisa não retornou resultados.")
+                Log('detail', f"A pesquisa nao retornou resultados.")
         
         if pessoa['Linkedin ID']:
             Log('info', f"{pessoa['Nome Completo']} ENCONTRADO.")
         else:
-            Log('warning', f"{pessoa['Nome Completo']} NÃO ENCONTRADO.")
+            Log('warning', f"{pessoa['Nome Completo']} NAO ENCONTRADO.")
         
         cont += 1
     return nomes
