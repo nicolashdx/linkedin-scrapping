@@ -10,8 +10,11 @@ import time
 from unidecode import unidecode
 from difflib import SequenceMatcher
 
+# Importando módulos necessários
+from log import Log
+
 # Constantes de ajuste
-CMP_SCORE_MIN = 0.7
+CMP_SCORE_MIN = 0.8
 
 # Função que remove o acento e caracteres especiais de uma string. Exemplo: "transação" para "transacao"
 def remover_acentos(string):
@@ -25,6 +28,7 @@ def comparar_nomes(nome_completo, possivel_nome):
     seq_matcher = SequenceMatcher(None, nome_completo, possivel_nome)
     # Obtém o score de semelhança entre as duas strings
     score = seq_matcher.ratio()
+    Log('detail', f"Score: {score}")
     return score
 
 def info_nome(soup):
@@ -128,12 +132,12 @@ def checar_formacao_academica(driver, instituicoes):
     for nome in instituicoes:
         for f in formacoes:
             if(remover_acentos(nome).upper() == remover_acentos(f['instituicao']).upper()):
-                return nome_formacao
+                return f['area']
     
     return ''
 
 # Função que compara o nome pesquisado ao nome encontrado. Se semelhantes, retorna o nome.
-def checar_nome(driver, nome_completo):
+def checar_nome(driver, variacoes_nome, nome_completo):
     # Verificando se a página em questão se trata de um perfil ativo
     if "linkedin.com/in" in driver.current_url:
         # Salvando o código fonte da página em uma variável
@@ -143,25 +147,25 @@ def checar_nome(driver, nome_completo):
         soup = BeautifulSoup(src,'lxml')
         
         nome = info_nome(soup)
+        if nome in variacoes_nome:
+            return nome
         
         # Comparando os nomes, se semelhantes, retorna o nome
         cmp = comparar_nomes(nome_completo, nome)
         if cmp >= CMP_SCORE_MIN:
-            return nome
-        elif cmp >= 0.5 and "UFMG" in nome.upper():
             return nome
 
     # Caso as condicionais não se cumpram, retorna vazio
     return ''
     
 
-def checar_perfil(driver, perfil_id, nome_completo, instituicoes):
+def checar_perfil(driver, perfil_id, nome_completo, variacoes_nome, instituicoes):
     # Acessando a página referente às formações acadêmicas
     formacao_url = f"https://www.linkedin.com/in/{perfil_id}/details/education/"
     driver.get(formacao_url)
     time.sleep(2)
     
-    nome_publico = checar_nome(driver, nome_completo)
+    nome_publico = checar_nome(driver, variacoes_nome, nome_completo)
     if not nome_publico:
         return '', ''
     

@@ -96,7 +96,7 @@ def Crawling(driver, nomes, busca):
                         Log('detail', f"Perfil encontrado: {profile_id}")
                         
                         # Verificando se o nome do perfil encontrado coincide com o nome buscado
-                        nome_publico, nome_formacao = validation.checar_perfil(driver, profile_id, pessoa['Nome Completo'], ["UFMG", "Universidade Federal de Minas Gerais"])
+                        nome_publico, nome_formacao = validation.checar_perfil(driver, profile_id, pessoa['Nome Completo'], possiveis_nomes, ["UFMG", "Universidade Federal de Minas Gerais"])
                         
                         if nome_publico and nome_formacao:
                             # Se as verificações forem bem sucedidas, preencher dados obtidos
